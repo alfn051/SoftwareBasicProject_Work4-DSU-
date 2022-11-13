@@ -2,13 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
 import {v4} from 'uuid';
-import Header from './coomponents/Header';
-import Footer from './coomponents/Footer';
+import Header from './components/Header';
+import Footer from './components/Footer';
 import noticeData from './data/notice-data.json';
 import subjectData from './data/subject-data.json';
-import Notice from './coomponents/Notice';
-import Subject from './coomponents/Subject';
-import InputForm from './coomponents/InputForm';
+import Notice from './components/Notice';
+import Subject from './components/Subject';
+import InputForm from './components/InputForm';
 
 function App() {
 
